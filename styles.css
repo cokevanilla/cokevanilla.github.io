@@ -376,7 +376,7 @@ section.contact-form button:hover {
     }
 
     #indexfooter {
-        margin-bottom: -800px;
+        margin-bottom: -650px;
         bottom: 0;
         width: 100%;
         background-color: rgba(0, 0, 0, 0.6);
@@ -386,7 +386,7 @@ section.contact-form button:hover {
     }
 
     #contactfooter {
-        margin-bottom: -150px;
+        margin-bottom: -20px;
         bottom: 0;
         width: 100%;
         background-color: rgba(0, 0, 0, 0.6);
