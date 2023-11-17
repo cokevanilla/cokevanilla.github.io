@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Sans:ital,wght@0,600;1,600&family=Libre+Baskerville:wght@700&display=swap"
+        rel="stylesheet" <!-- Link to your CSS stylesheet -->
+    <title>World Xplore - Contact Us</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <img class="logo" src="images/WXLogo.svg" alt="World Xplore Logo">
+        <ul>
+            <li><a href="index.html" >Home</a></li>
+            <li class="dropdown">
+                <a href="#">Package Tours</a>
+                <div class="dropdown-content">
+                    <a href="hotairbln.html" >Hot Air Balloon</a>
+                    <a href="#">ATV</a>
+                    <a href="#">Sunset Horse Riding</a>
+                </div>
+            </li>
+            <li><a href="#">Rediscover Singapore</a></li>
+            <li><a href="#">Cruises</a></li>
+            <li><a href="contact.html" class="current">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Get in touch</h1>
+    </header>
+
+    <section class="contact-form">
+        <h2>Contact Form</h2>
+        <form action="#" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer id="contactfooter">
+        <p>&copy; 2023 World Xplore</p>
+    </footer>
+</body>
+
+</html>
